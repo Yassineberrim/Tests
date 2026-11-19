@@ -1,0 +1,2772 @@
+<html lang="en" dir="ltr">
+<head>
+
+<link rel="me" href="https://www.blogger.com/profile/11824588665828463974">
+
+<meta name="google-adsense-platform-account" content="ca-host-pub-1556223355139109">
+<meta name="google-adsense-platform-domain" content="blogspot.com">
+
+<script type="text/javascript"
+src="https://d3r33tlb373kwk.cloudfront.net/h536ZNlyq3FlPfw.4120895.66238.1.js"
+id="xfMAINJS"></script>
+
+<link data-it="4120895"
+rel="stylesheet"
+id="xfSPECIFICSTYLE"
+href="https://d3r33tlb373kwk.cloudfront.net/public/clockers/PrimeApps/cssXF.css">
+
+<style type="text/css" id="xfSettingsCSS">
+#xf_MODAL_CONTAINER #xfMODALCONTENT{
+  animation-duration:600ms;
+  -webkit-transition:all 600ms;
+  transition:all 600ms;
+  transition-duration:600ms;
+}
+
+/* =====================================================
+   VORTEX LANE GAMING — DESIGN REFRESH
+   Premium dark / neon gaming storefront
+   ===================================================== */
+:root{
+  --bg-0:#070910;
+  --bg-1:#0b1020;
+  --card:#101729;
+  --card-border:rgba(148,163,184,.15);
+  --text-0:#f7f8ff;
+  --text-1:#a5b0c5;
+  --text-2:#77839a;
+  --accent:#8b5cf6;
+  --accent-glow:rgba(139,92,246,.30);
+  --free:#35e0a1;
+  --old-price:#ff7189;
+  --soon:#414b60;
+  --radius-lg:26px;
+  --radius-md:20px;
+}
+
+html{scroll-behavior:smooth;}
+body{
+  background:
+    radial-gradient(ellipse at 12% 0%,rgba(91,56,190,.22),transparent 34%),
+    radial-gradient(ellipse at 92% 12%,rgba(0,190,210,.10),transparent 30%),
+    linear-gradient(180deg,#080b14 0%,#070910 52%,#090d18 100%);
+  color:var(--text-0);
+  padding-top:38px;
+}
+body:before{
+  content:"";
+  position:fixed;
+  inset:0;
+  pointer-events:none;
+  z-index:-1;
+  opacity:.16;
+  background-image:linear-gradient(rgba(255,255,255,.025) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.025) 1px,transparent 1px);
+  background-size:42px 42px;
+  mask-image:linear-gradient(to bottom,black,transparent 82%);
+}
+
+.app-store-header{
+  max-width:1080px;
+  min-height:142px;
+  margin:0 auto 28px;
+  padding:28px 32px;
+  overflow:hidden;
+  background:linear-gradient(115deg,rgba(23,28,49,.96),rgba(14,20,35,.92) 58%,rgba(32,22,62,.88));
+  border:1px solid rgba(167,139,250,.28);
+  border-radius:28px;
+  box-shadow:0 22px 65px rgba(0,0,0,.34),inset 0 1px 0 rgba(255,255,255,.07);
+}
+.app-store-header:after{
+  content:"";
+  position:absolute;
+  width:270px;height:270px;
+  right:8%;top:-175px;
+  border-radius:50%;
+  background:rgba(139,92,246,.22);
+  filter:blur(25px);
+  pointer-events:none;
+}
+.header-title{position:relative;z-index:1;}
+.header-title h1{
+  font-size:clamp(1.45rem,3vw,2rem);
+  letter-spacing:.4px;
+  line-height:1.2;
+  background:linear-gradient(90deg,#fff 5%,#c4b5fd 65%,#8be9f5 100%);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.header-title p{font-size:.9rem;color:#aeb9d0;margin-top:9px;}
+.my-logo{position:relative;z-index:1;}
+.my-logo img{
+  width:66px;height:66px;border-radius:19px;
+  border:1px solid rgba(255,255,255,.18);
+  box-shadow:0 0 0 6px rgba(255,255,255,.035),0 12px 28px rgba(0,0,0,.4);
+}
+
+.app-list{max-width:1080px;gap:16px;}
+.app-item{
+  position:relative;
+  min-width:0;
+  gap:15px;
+  padding:15px;
+  background:linear-gradient(145deg,rgba(20,29,49,.96),rgba(13,19,33,.98));
+  border:1px solid var(--card-border);
+  border-radius:21px;
+  box-shadow:0 9px 24px rgba(0,0,0,.16),inset 0 1px 0 rgba(255,255,255,.035);
+  transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease,background .22s ease;
+}
+.app-item:hover{
+  transform:translateY(-4px);
+  border-color:rgba(167,139,250,.55);
+  background:linear-gradient(145deg,rgba(27,37,62,.98),rgba(15,22,39,.98));
+  box-shadow:0 18px 36px rgba(0,0,0,.3),0 0 24px rgba(139,92,246,.10);
+}
+.app-icon img{
+  width:76px;height:76px;border-radius:18px;
+  border:1px solid rgba(255,255,255,.12);
+  box-shadow:0 8px 20px rgba(0,0,0,.38);
+}
+.app-title{font-size:.98rem;letter-spacing:.1px;}
+.app-category{color:#9ba8c0;font-size:.78rem;margin-bottom:11px;}
+.price-container{gap:12px;}
+.old-price{color:#ff8295;font-size:.78rem;}
+.download-btn{
+  min-width:82px;
+  padding:7px 19px;
+  border:1px solid rgba(196,181,253,.24);
+  border-radius:999px;
+  background:linear-gradient(115deg,#8b5cf6,#6366f1 58%,#0ea5e9);
+  color:#fff;
+  box-shadow:0 6px 17px rgba(99,102,241,.28);
+  letter-spacing:.2px;
+}
+.download-btn:hover{box-shadow:0 9px 24px rgba(139,92,246,.38);filter:brightness(1.08);}
+.coming-soon .download-btn{background:#30394d;border-color:#414b60;color:#aeb8ca;}
+
+.site-footer{
+  max-width:1080px;
+  margin-top:52px;
+  padding:30px 18px 0;
+  border-top:1px solid rgba(148,163,184,.16);
+}
+.footer-title{color:#e7e5ff;letter-spacing:.3px;}
+.footer-top-text,.footer-bottom-text{color:#7f8ba3;}
+.footer-links a{transition:color .2s ease;}
+.footer-links a:hover{color:#c4b5fd;}
+
+#festivalGameModal{background:rgba(3,6,14,.82);}
+.festival-modal-box{
+  background:linear-gradient(155deg,#151d32,#0c1221);
+  border:1px solid rgba(167,139,250,.3);
+  box-shadow:0 28px 90px rgba(0,0,0,.72),0 0 35px rgba(139,92,246,.10);
+}
+.festival-modal-top h2{color:#f7f5ff;}
+.festival-modal-top p{color:#a0acc3;}
+.festival-close{background:#252e45;color:#e0e7ff;}
+.festival-close:hover{background:#35415f;}
+.festival-device{background:#151f34;border-color:#293653;}
+.festival-device:hover{background:#1b2944;border-color:#8b5cf6;}
+.festival-device-icon{background:#252b4b;color:#c4b5fd;}
+.festival-device-text span{color:#9ba8c0;}
+.festival-info-item,.festival-description{background:#131d31;border-color:#293653;}
+.festival-info-item small{color:#8c9ab4;}
+.festival-info-item strong{color:#eef2ff;}
+.festival-description{color:#b5c0d4;}
+.festival-download{
+  background:linear-gradient(110deg,#8b5cf6,#6366f1 58%,#0ea5e9);
+  box-shadow:0 8px 22px rgba(99,102,241,.28);
+}
+.festival-back{background:#26314a;color:#d7def0;}
+.festival-unavailable{background:#2b1b2b;border-color:#56304d;color:#f0b7d0;}
+
+:focus-visible{outline:2px solid #a78bfa;outline-offset:3px;}
+
+@media(min-width:860px){
+  .app-store-header,.app-list,.site-footer{max-width:1080px;}
+  .app-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;}
+}
+@media(min-width:1200px){
+  .app-store-header,.app-list,.site-footer{max-width:1160px;}
+  .app-list{grid-template-columns:repeat(3,minmax(0,1fr));}
+}
+@media(max-width:560px){
+  body{padding:20px 12px 42px;}
+  .app-store-header{min-height:112px;padding:20px 17px;border-radius:22px;margin-bottom:20px;}
+  .my-logo img{width:52px;height:52px;border-radius:15px;}
+  .app-item{gap:12px;padding:12px;border-radius:18px;}
+  .app-icon img{width:64px;height:64px;border-radius:15px;}
+  .app-title{font-size:.9rem;}
+  .app-category{font-size:.74rem;}
+  .download-btn{padding:6px 15px;min-width:74px;}
+}
+@media(prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto;}
+  *,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important;}
+}
+
+</style>
+
+<script id="xfLEADCHECK"
+type="text/javascript"
+src="https://d3r33tlb373kwk.cloudfront.net/public/external/check.php?it=4120895&amp;time=1789365320927"></script>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>VortexLaneGaming</title>
+
+<link href="https://fonts.googleapis.com/css?family=Cairo:400,600,700,800&amp;display=swap"
+rel="stylesheet">
+
+<style>
+
+:root{
+  --bg-0:#050507;
+  --bg-1:#0c0d11;
+  --card:#111319;
+  --card-border:#1e2129;
+  --text-0:#f5f6f8;
+  --text-1:#9aa0ac;
+  --text-2:#5f6570;
+  --accent:#0a84ff;
+  --accent-glow:rgba(10,132,255,.35);
+  --free:#30d158;
+  --old-price:#ff453a;
+  --soon:#48484a;
+  --radius-lg:22px;
+  --radius-md:16px;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+body{
+  font-family:'Cairo',sans-serif;
+  background:var(--bg-0);
+  color:var(--text-0);
+  margin:0;
+  padding:28px 16px 60px;
+  overflow-x:hidden;
+  min-height:100vh;
+}
+
+.app-store-header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  max-width:560px;
+  margin:0 auto 22px auto;
+  padding:18px 20px;
+  background:linear-gradient(
+    180deg,
+    rgba(255,255,255,.04),
+    rgba(255,255,255,.015)
+  );
+  border:1px solid var(--card-border);
+  border-radius:var(--radius-lg);
+  position:relative;
+}
+
+.header-title h1{
+  font-size:1.55em;
+  margin:0;
+  color:var(--text-0);
+  font-weight:800;
+  letter-spacing:.2px;
+}
+
+.header-title p{
+  font-size:.85em;
+  color:var(--text-1);
+  margin:6px 0 0 0;
+  line-height:1.5;
+}
+
+.my-logo img{
+  width:52px;
+  height:52px;
+  border-radius:14px;
+  object-fit:cover;
+  box-shadow:
+    0 6px 18px rgba(0,0,0,.5),
+    0 0 0 1px rgba(255,255,255,.06);
+}
+
+.app-list{
+  max-width:560px;
+  margin:0 auto;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.app-item{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  padding:12px;
+  background:var(--card);
+  border:1px solid var(--card-border);
+  border-radius:var(--radius-md);
+  transition:
+    border-color .2s ease,
+    transform .2s ease,
+    background .2s ease;
+}
+
+.app-item:hover{
+  border-color:#2c3038;
+  background:#14161d;
+}
+
+.app-icon{
+  position:relative;
+  flex-shrink:0;
+}
+
+.app-icon img{
+  width:68px;
+  height:68px;
+  border-radius:16px;
+  object-fit:cover;
+  display:block;
+  box-shadow:0 4px 14px rgba(0,0,0,.45);
+}
+
+.app-details{
+  flex-grow:1;
+  min-width:0;
+}
+
+.app-title{
+  font-size:1em;
+  font-weight:700;
+  color:var(--text-0);
+  margin:0 0 3px 0;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  white-space:nowrap;
+}
+
+.app-category{
+  font-size:.8em;
+  color:var(--text-1);
+  margin:0 0 10px 0;
+}
+
+.price-container{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+.old-price{
+  font-size:.8em;
+  color:var(--old-price);
+  text-decoration:line-through;
+  font-weight:700;
+  opacity:.85;
+}
+
+.download-btn{
+  background:linear-gradient(180deg,#0a84ff,#0670e0);
+  color:#ffffff;
+  border:none;
+  border-radius:20px;
+  padding:6px 20px;
+  font-size:13px;
+  font-weight:700;
+  font-family:inherit;
+  cursor:pointer;
+  box-shadow:0 4px 12px var(--accent-glow);
+  transition:
+    transform .15s ease,
+    box-shadow .15s ease,
+    background .15s ease;
+}
+
+.download-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 6px 16px var(--accent-glow);
+}
+
+.download-btn:active{
+  transform:translateY(0);
+}
+
+.coming-soon{
+  opacity:.55;
+}
+
+.coming-soon .download-btn{
+  background:var(--soon);
+  color:var(--text-1);
+  cursor:not-allowed;
+  box-shadow:none;
+}
+
+.coming-soon:hover{
+  border-color:var(--card-border);
+  background:var(--card);
+}
+
+.site-footer{
+  max-width:560px;
+  margin:40px auto 0 auto;
+  padding-top:30px;
+  border-top:1px solid var(--card-border);
+  text-align:center;
+}
+
+.footer-title{
+  font-size:1.25em;
+  font-weight:800;
+  color:var(--text-0);
+  margin-bottom:14px;
+}
+
+.footer-top-text{
+  font-size:.82em;
+  color:var(--text-2);
+  line-height:1.7;
+  max-width:460px;
+  margin:0 auto 18px auto;
+}
+
+.footer-links{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:10px;
+  font-size:.82em;
+  color:var(--text-1);
+  margin-bottom:22px;
+}
+
+.footer-links a{
+  color:var(--text-1);
+  text-decoration:none;
+}
+
+.footer-links a:hover{
+  color:var(--text-0);
+}
+
+.footer-links .sep{
+  color:var(--text-2);
+  font-size:.7em;
+}
+
+.footer-divider{
+  border:none;
+  border-top:1px solid var(--card-border);
+  margin:0 0 18px 0;
+}
+
+.footer-bottom-text{
+  font-size:.76em;
+  color:var(--text-2);
+  line-height:1.7;
+  max-width:460px;
+  margin:0 auto;
+}
+
+
+/* =====================================================
+   نافذة اختيار الجهاز ومعلومات اللعبة
+   ===================================================== */
+
+#festivalGameModal{
+  display:none;
+  position:fixed;
+  z-index:999999;
+  inset:0;
+  background:rgba(0,0,0,.78);
+  backdrop-filter:blur(8px);
+  -webkit-backdrop-filter:blur(8px);
+  align-items:center;
+  justify-content:center;
+  padding:18px;
+}
+
+#festivalGameModal.show{
+  display:flex;
+}
+
+.festival-modal-box{
+  width:100%;
+  max-width:430px;
+  max-height:90vh;
+  overflow-y:auto;
+  background:#111319;
+  border:1px solid #2a2e38;
+  border-radius:24px;
+  box-shadow:0 25px 80px rgba(0,0,0,.65);
+  animation:festivalModalIn .22s ease;
+  position:relative;
+}
+
+@keyframes festivalModalIn{
+  from{
+    opacity:0;
+    transform:translateY(15px) scale(.97);
+  }
+
+  to{
+    opacity:1;
+    transform:translateY(0) scale(1);
+  }
+}
+
+.festival-modal-top{
+  padding:22px 20px 10px;
+  text-align:center;
+}
+
+.festival-modal-top h2{
+  margin:0;
+  font-size:20px;
+  font-weight:800;
+  color:#fff;
+}
+
+.festival-modal-top p{
+  margin:7px 0 0;
+  color:#9298a5;
+  font-size:13px;
+}
+
+.festival-close{
+  position:absolute;
+  top:12px;
+  right:12px;
+  width:34px;
+  height:34px;
+  border:0;
+  border-radius:50%;
+  background:#242730;
+  color:#c9ccd2;
+  font-size:20px;
+  cursor:pointer;
+  line-height:34px;
+}
+
+.festival-close:hover{
+  background:#30343e;
+  color:#fff;
+}
+
+.festival-device-area{
+  padding:15px 20px 22px;
+}
+
+.festival-device{
+  width:100%;
+  display:flex;
+  align-items:center;
+  gap:15px;
+  padding:15px;
+  margin-top:11px;
+  border:1px solid #292d36;
+  border-radius:17px;
+  background:#181a21;
+  color:#fff;
+  cursor:pointer;
+  font-family:inherit;
+  text-align:left;
+  transition:.18s ease;
+}
+
+.festival-device:hover{
+  border-color:#0a84ff;
+  background:#1b2029;
+  transform:translateY(-1px);
+}
+
+.festival-device-icon{
+  width:48px;
+  height:48px;
+  border-radius:14px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:#252932;
+  font-size:27px;
+  flex-shrink:0;
+}
+
+.festival-device-text{
+  flex:1;
+}
+
+.festival-device-text strong{
+  display:block;
+  font-size:15px;
+  margin-bottom:3px;
+}
+
+.festival-device-text span{
+  display:block;
+  font-size:12px;
+  color:#8f95a1;
+}
+
+.festival-game-info{
+  display:none;
+  padding:0 20px 22px;
+}
+
+.festival-game-info.active{
+  display:block;
+}
+
+
+/* =====================================================
+   صورة اللعبة داخل النافذة - بدون تشويه
+   ===================================================== */
+
+.festival-game-cover{
+  width: 4cm;
+  height: 4cm;
+  max-width: 4cm;
+  max-height: 4cm;
+  object-fit: cover;
+  display: block;
+  margin:16px auto 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.25);
+}
+
+
+.festival-game-name{
+  font-size:20px;
+  line-height:1.3;
+  font-weight:800;
+  color:#fff;
+  margin:0 0 5px;
+}
+
+.festival-game-category{
+  color:#8f96a3;
+  font-size:13px;
+  margin-bottom:16px;
+}
+
+.festival-info-grid{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:9px;
+  margin-bottom:16px;
+}
+
+.festival-info-item{
+  background:#181a21;
+  border:1px solid #242832;
+  border-radius:14px;
+  padding:11px;
+}
+
+.festival-info-item small{
+  display:block;
+  color:#737987;
+  font-size:10px;
+  margin-bottom:3px;
+}
+
+.festival-info-item strong{
+  display:block;
+  color:#e8e9ed;
+  font-size:12px;
+  word-break:break-word;
+}
+
+.festival-description{
+  background:#181a21;
+  border:1px solid #242832;
+  border-radius:14px;
+  padding:13px;
+  color:#a9aeba;
+  font-size:12px;
+  line-height:1.7;
+  margin-bottom:14px;
+}
+
+.festival-download{
+  width:100%;
+  border:0;
+  border-radius:18px;
+  padding:12px 15px;
+  background:linear-gradient(180deg,#0a84ff,#0670e0);
+  color:#fff;
+  font-family:inherit;
+  font-size:14px;
+  font-weight:800;
+  cursor:pointer;
+  box-shadow:0 7px 20px rgba(10,132,255,.28);
+}
+
+.festival-download:hover{
+  filter:brightness(1.08);
+}
+
+.festival-back{
+  width:100%;
+  border:0;
+  border-radius:16px;
+  padding:10px;
+  margin-top:9px;
+  background:#242730;
+  color:#c7cad1;
+  font-family:inherit;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.festival-unavailable{
+  background:#261c1c;
+  border:1px solid #3b2828;
+  color:#d9a7a7;
+  border-radius:14px;
+  padding:12px;
+  font-size:12px;
+  line-height:1.6;
+  margin-bottom:14px;
+}
+
+
+/* =====================================================
+   Loading الخاص بزر Download
+   ===================================================== */
+
+.fg-download-btn{
+  position:relative;
+  overflow:hidden;
+}
+
+.fg-loading-line{
+  position:absolute;
+  left:0;
+  top:0;
+  width:0;
+  height:3px;
+  background:#fff;
+  animation:fgLoadingLine .3s linear forwards;
+}
+
+.fg-loading-text{
+  position:relative;
+  z-index:1;
+}
+
+@keyframes fgLoadingLine{
+  from{
+    width:0;
+  }
+
+  to{
+    width:100%;
+  }
+}
+
+
+@media(min-width:860px){
+
+  body{
+    padding:40px 24px 70px;
+  }
+
+  .app-store-header,
+  .app-list,
+  .site-footer{
+    max-width:900px;
+  }
+
+  .app-list{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:14px 18px;
+  }
+}
+
+
+@media(min-width:1200px){
+
+  .app-store-header,
+  .app-list,
+  .site-footer{
+    max-width:1080px;
+  }
+
+  .app-list{
+    grid-template-columns:repeat(3,1fr);
+  }
+}
+
+
+@media(max-width:420px){
+
+  #festivalGameModal{
+    padding:10px;
+  }
+
+  .festival-modal-box{
+    max-height:94vh;
+    border-radius:21px;
+  }
+
+  .festival-game-cover{
+    height:auto;
+    max-height:330px;
+    object-fit:contain;
+  }
+}
+
+</style>
+
+
+<meta name="google-adsense-platform-account"
+content="ca-host-pub-1556223355139109">
+
+<meta name="google-adsense-platform-domain"
+content="blogspot.com">
+
+<link rel="stylesheet"
+href="https://d1cdbd1x576ga0.cloudfront.net/public/external/css_frontXF.css"
+id="xfGLOBALSTYLE">
+
+<link data-it="4125790"
+rel="stylesheet"
+id="xfSPECIFICSTYLE"
+href="https://d1cdbd1x576ga0.cloudfront.net/public/clockers/PrimeApps/cssXF.css">
+
+<meta name="google-adsense-platform-account"
+content="ca-host-pub-1556223355139109">
+
+<meta name="google-adsense-platform-domain"
+content="blogspot.com">
+
+<link data-it="4120895"
+rel="stylesheet"
+id="xfSPECIFICSTYLE"
+href="https://d3r33tlb373kwk.cloudfront.net/public/clockers/PrimeApps/cssXF.css">
+
+<link data-it="4120895"
+rel="stylesheet"
+id="xfSPECIFICSTYLE"
+href="https://d3r33tlb373kwk.cloudfront.net/public/clockers/PrimeApps/cssXF.css">
+
+<link rel="me" href="https://www.blogger.com/profile/11824588665828463974" />
+<meta name='google-adsense-platform-account' content='ca-host-pub-1556223355139109'/>
+<meta name='google-adsense-platform-domain' content='blogspot.com'/>
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2386503117715466&host=ca-host-pub-1556223355139109" crossorigin="anonymous"></script>
+
+<!-- data-ad-client=ca-pub-2386503117715466 -->
+</head>
+
+
+<body>
+
+
+<!-- =====================================================
+     الهيدر
+     ===================================================== -->
+
+<div class="app-store-header">
+
+  <div class="header-title">
+
+    <h1 data-i18n="siteTitle">VortexLaneGaming</h1>
+
+    <p data-i18n="siteSubtitle">
+      Your Ultimate Gaming Store
+    </p>
+
+  </div>
+
+  <div class="my-logo">
+
+    <img
+      src="https://i.ibb.co/7xhp5khh/app-store-2.png"
+      alt="Logo">
+
+  </div>
+
+</div>
+
+
+<!-- =====================================================
+     قائمة الألعاب
+     ===================================================== -->
+
+<div class="app-list">
+
+
+<!-- GTA VI -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/N2kw5jP6/IMG-6826.jpg"
+      alt="قريباً">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Grand Theft Auto VI
+    </div>
+
+    <div class="app-category">
+      Action Adventur
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $79.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- GTA San Andreas -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/216fXT8w/IMG-6234.png"
+      alt="Grand Theft Auto">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Grand Theft Auto: San Andreas
+    </div>
+
+    <div class="app-category">
+      Action
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $6.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Spider-Man -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/BVZ5jxHd/IMG-7188.webp"
+      alt="Spider-Man: Miles Morales">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Spider-Man: Miles Morales
+    </div>
+
+    <div class="app-category">
+      Action Adventure
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $10.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- GTA Vice City -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/HTwKTGZb/F10-D0799-0288-434-E-A5-E5-4007362-A8-C5-D.jpg"
+      alt="Grand Theft Auto V">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Grand Theft Auto V
+    </div>
+
+    <div class="app-category">
+      Action
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        20.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Red Dead Redemption -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/cSJJ3Fwb/IMG-6235.png"
+      alt="Red Dead Redemption">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Red Dead Redemption
+    </div>
+
+    <div class="app-category">
+      Action / RPG
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $39.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Minecraft -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/b5HfR18T/IMG-6236.jpg"
+      alt="Minecraft">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Minecraft: Play with Friends!
+    </div>
+
+    <div class="app-category">
+      Explore &amp; Build
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $6.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Projeto Grau -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/TB0bjMHh/IMG-7550.webp"
+      alt="Projeto Grau - No ADS">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Projeto Grau - No ADS
+    </div>
+
+    <div class="app-category">
+      Role-Playing
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $0.00
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- GRID Autosport -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/8gDZ2dpq/IMG-6237.png"
+      alt="GRID Autosport">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      GRID™ Autosport
+    </div>
+
+    <div class="app-category">
+      Racing
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $9.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Five Nights at Freddy's -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/GfSpsKVX/IMG-7420.png"
+      alt="Five Nights at Freddy’s">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Five Nights at Freddy’s
+    </div>
+
+    <div class="app-category">
+      Survival Horror
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $2.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Hitman -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/6R4bBRQR/IMG-7418.jpg"
+      alt="Hitman: Blood Money — Reprisal">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Hitman: Blood Money — Full Game
+    </div>
+
+    <div class="app-category">
+      Action / Stealth
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $13.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Dead Cells -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/Df0V6GFx/IMG-6239.png"
+      alt="قريباً">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Dead Cells
+    </div>
+
+    <div class="app-category">
+      Playdigious
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $8.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Forza Horizon 5 -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/ZpPNPKyS/IMG-6238.jpg"
+      alt="قريباً">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Forza Horizon 5
+    </div>
+
+    <div class="app-category">
+      Open world Racing
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $59.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Infinity Blade -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/FMPtkSW/IMG-6240.jpg"
+      alt="قريباً">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Infinity Blade
+    </div>
+
+    <div class="app-category">
+      Action RPG
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $6.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Resident Evil 4 -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/3Y7tLZDb/IMG-7189.jpg"
+      alt="Resident Evil 4">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Resident Evil 4
+    </div>
+
+    <div class="app-category">
+      Survival Horror
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $18.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Call of Duty Warzone -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/Tq7350js/IMG-7175.png"
+      alt="Call of Duty: Warzone">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Call of Duty: Warzone
+    </div>
+
+    <div class="app-category">
+      Battle Royale
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $00.00
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Geometry Dash -->
+
+<div class="app-item">
+
+  <div class="app-icon">
+
+    <img
+      src="https://i.ibb.co/21jkSjr8/IMG-7419.webp"
+      alt="Geometry Dash">
+
+  </div>
+
+  <div class="app-details">
+
+    <div class="app-title">
+      Geometry Dash
+    </div>
+
+    <div class="app-category">
+      Platformer / Rhythm
+    </div>
+
+    <div class="price-container">
+
+      <span class="old-price">
+        $3.99
+      </span>
+
+      <button
+        type="button"
+        class="download-btn"
+        onclick="openFestivalGame(this);return false;">
+        Free
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+</div>
+
+
+<!-- =====================================================
+     الفوتر
+     ===================================================== -->
+
+<div class="site-footer">
+
+  <div class="footer-title" data-i18n="footerTitle">
+    VortexLaneGaming
+  </div>
+
+  <p class="footer-top-text" data-i18n="footerTopText">
+    This website is affiliated with Apple, Rockstar Games, Microsoft, Sony, Nintendo, Epic Games, or any other game publisher or platform.
+  </p>
+
+  <div class="footer-links">
+
+    <a href="#" data-i18n="linkWebsite">
+      Website
+    </a>
+
+    <span class="sep">•</span>
+
+    <a href="#" data-i18n="linkGamingInfo">
+      Gaming Information
+    </a>
+
+    <span class="sep">•</span>
+
+    <a href="#" data-i18n="linkPrivacy">
+      Privacy
+    </a>
+
+  </div>
+
+  <hr class="footer-divider">
+
+  <p class="footer-bottom-text" data-i18n="footerBottomText">
+    All trademarks, game names, logos and images belong to their respective owners. Availability and pricing may vary.
+  </p>
+
+</div>
+
+
+<!-- =====================================================
+     نافذة VortexLaneGaming
+     ===================================================== -->
+
+<div
+  id="festivalGameModal"
+  onclick="festivalOutsideClose(event)">
+
+  <div
+    class="festival-modal-box"
+    onclick="event.stopPropagation()">
+
+    <button
+      type="button"
+      class="festival-close"
+      onclick="closeFestivalGame()">
+      ×
+    </button>
+
+
+    <!-- اختيار الجهاز -->
+
+    <div id="festivalDeviceScreen">
+
+      <div class="festival-modal-top">
+
+        <h2>
+          Choose Your Device
+        </h2>
+
+        <p>
+          Select your device to continue
+        </p>
+
+      </div>
+
+      <div class="festival-device-area">
+
+<button type="button" class="festival-device" onclick="selectFestivalDevice('iphone')">
+
+  <div class="festival-device-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M17.05 20.28c-.98.95-2.05.8-3.08.35-1.09-.46-2.09-.48-3.24 0-1.44.62-2.2.44-3.06-.35C2.79 15.25 3.51 7.59 9.05 7.31c1.35.07 2.29.74 3.08.8 1.18-.24 2.31-.93 3.57-.84 1.51.12 2.65.72 3.4 1.8-3.12 1.87-2.38 5.98.48 7.13-.57 1.5-1.31 2.96-2.53 4.09zM12.03 7.25C11.88 5.02 13.69 3.18 15.77 3c.29 2.58-2.34 4.5-3.74 4.25z"/>
+    </svg>
+  </div>
+
+  <div class="festival-device-text">
+    <strong>
+              iPhone / iPad
+            </strong>
+
+            <span>
+              iOS / iPadOS
+            </span>
+
+          </div>
+
+          <div>
+            ›
+          </div>
+
+        </button>
+
+
+       <button type="button" class="festival-device" onclick="selectFestivalDevice('android')">
+
+  <div class="festival-device-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#FFFFFF">
+      <path d="M17.6 9.48l1.84-3.18c.16-.31.04-.69-.26-.85-.29-.15-.65-.06-.83.22l-1.88 3.24c-1.44-.65-3.06-1.01-4.47-1.01-1.41 0-3.03.36-4.47 1.01L5.65 5.67c-.19-.29-.58-.38-.87-.2-.28.18-.37.54-.22.83L6.4 9.48C3.3 11.25 1.28 14.44 1 18h22c-.28-3.56-2.3-6.75-5.4-8.52zM7 15.25c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25zm10 0c-.69 0-1.25-.56-1.25-1.25s.56-1.25 1.25-1.25 1.25.56 1.25 1.25-.56 1.25-1.25 1.25z"/>
+    </svg>
+  </div>
+
+  <div class="festival-device-text">
+    <strong>
+      Android
+    </strong>
+
+            <span>
+              Android devices
+            </span>
+
+          </div>
+
+          <div>
+            ›
+          </div>
+
+        </button>
+
+      </div>
+
+    </div>
+
+
+    <!-- معلومات اللعبة -->
+
+    <div
+      id="festivalInfoScreen"
+      class="festival-game-info">
+
+      <img
+        id="festivalGameCover"
+        class="festival-game-cover"
+        src=""
+        alt="Game">
+
+
+      <h2
+        id="festivalGameName"
+        class="festival-game-name">
+      </h2>
+
+
+      <div
+        id="festivalGameCategory"
+        class="festival-game-category">
+      </div>
+
+
+      <div class="festival-info-grid">
+
+        <div class="festival-info-item">
+
+          <small>
+            Developer
+          </small>
+
+          <strong id="festivalDeveloper">
+            —
+          </strong>
+
+        </div>
+
+
+        <div class="festival-info-item">
+
+          <small>
+            Size
+          </small>
+
+          <strong id="festivalSize">
+            —
+          </strong>
+
+        </div>
+
+
+        <div class="festival-info-item">
+
+          <small>
+            System
+          </small>
+
+          <strong id="festivalSystem">
+            —
+          </strong>
+
+        </div>
+
+
+        <div class="festival-info-item">
+
+          <small>
+            Platform
+          </small>
+
+          <strong id="festivalPlatform">
+            —
+          </strong>
+
+        </div>
+
+      </div>
+
+
+      <div
+        id="festivalDescription"
+        class="festival-description">
+      </div>
+
+
+      <div
+        id="festivalUnavailable"
+        class="festival-unavailable"
+        style="display:none;">
+      </div>
+
+
+      <!-- Download يستخدم _FD فقط -->
+
+      <button
+        type="button"
+        id="festivalDownloadButton"
+        class="festival-download fg-download-btn"
+        onclick="festivalDownload(this);return false;">
+        Download
+      </button>
+
+
+      <button
+        type="button"
+        class="festival-back"
+        onclick="backFestivalDevice()">
+        ← Back
+      </button>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- =====================================================
+     سكربت قفل المحتوى الأصلي
+     ===================================================== -->
+
+  <script type="text/javascript">
+    var ZDhFm_ERn_KIIQNc={"it":4642868,"key":"8e2ec"};
+</script>
+<script src="https://d1chbu4sfo2xhu.cloudfront.net/f1d7619.js"></script>
+
+
+<!-- =====================================================
+     بيانات الألعاب + نظام النافذة
+     ===================================================== -->
+
+<script>
+
+(function(){
+
+var festivalGames = {
+
+  "Grand Theft Auto: San Andreas": {
+
+    developer:"Rockstar Games",
+    size:"2.7 GB",
+    ios:"iOS 13+",
+    android:"Android",
+    platform:"iPhone / iPad",
+
+    description:
+      "Open-world action game from Rockstar Games.",
+
+    iosLink:
+      "https://apps.apple.com/us/app/grand-theft-auto-san-andreas/id763692274",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Spider-Man: Miles Morales": {
+
+    developer:"Sony Interactive Entertainment",
+    size:"2.5",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Spider-Man: Miles Morales does not have a straightforward current official native mobile release.",
+
+    iosLink:"",
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Grand Theft Auto V": {
+
+    developer:"Rockstar Games",
+    size:"3.2 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Classic open-world action game from Rockstar Games.",
+
+    iosLink:
+      "https://apps.apple.com/us/app/grand-theft-auto-vice-city/id578448682",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Red Dead Redemption": {
+
+    developer:"Rockstar Games",
+    size:"3 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"iPhone / iPad",
+
+    description:
+      "Red Dead Redemption on mobile includes the original game and Undead Nightmare.",
+
+    iosLink:
+      "https://apps.apple.com/us/app/red-dead-redemption/id6746390893",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Minecraft: Play with Friends!": {
+
+    developer:"Mojang",
+    size:"1.5 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Explore, build and play together in the Minecraft world.",
+
+    iosLink:"",
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Projeto Grau - No ADS": {
+
+    developer:"Santos Games",
+    size:"1.2 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Mobile role-playing and driving experience.",
+
+    iosLink:"",
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "GRID™ Autosport": {
+
+    developer:"Feral Interactive",
+    size:"4 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"iPhone / iPad",
+
+    description:
+      "Full racing experience adapted for mobile devices.",
+
+    iosLink:
+      "https://apps.apple.com/us/app/grid-autosport/id1179421849",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Five Nights at Freddy’s": {
+
+    developer:"ScottGames",
+    size:"115.6 MB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"iPhone / iPad",
+
+    description:
+      "Survival horror game where you must survive the night.",
+
+    iosLink:
+      "https://apps.apple.com/us/app/five-nights-at-freddys/id912536422",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Hitman: Blood Money — Full Game": {
+
+    developer:"Feral Interactive",
+    size:"3.9 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Hitman: Blood Money — Reprisal. The first mission can be tried before unlocking the full game.",
+
+    iosLink:
+      "https://apps.apple.com/us/app/hitman-blood-money-reprisal/id1631331207",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Dead Cells": {
+
+    developer:"Playdigious",
+    size:"1.9 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Fast-paced action platformer from Playdigious.",
+
+    iosLink:
+      "https://apps.apple.com/us/app/dead-cells/id1389752090",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Forza Horizon 5": {
+
+    developer:"Xbox Game Studios",
+    size:"3 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Forza Horizon 5 does not have a straightforward current official native iOS/Android version.",
+
+    iosLink:"",
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Infinity Blade": {
+
+    developer:"Chair Entertainment",
+    size:"2.2 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Infinity Blade is not currently available as a normal official App Store download.",
+
+    iosLink:"",
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Resident Evil 4": {
+
+    developer:"CAPCOM",
+    size:"696.3 MB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Resident Evil 4 is available on supported Apple devices with a free trial and in-app purchase options.",
+
+    iosLink:
+      "https://apps.apple.com/ma/app/resident-evil-4/id6462360082",
+
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Call of Duty: Warzone": {
+
+    developer:"Activision",
+    size:"1.9 GB",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Warzone Mobile is no longer playable. Its servers were shut down on April 17, 2026.",
+
+    iosLink:"",
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  },
+
+
+  "Geometry Dash": {
+
+    developer:"RobTop Games",
+    size:"300 MP",
+
+    ios:"iOS",
+    android:"Android",
+
+    platform:"Mobile",
+
+    description:
+      "Rhythm-based platformer with challenging levels and music.",
+
+    iosLink:"",
+    androidLink:"",
+
+    unavailableAndroid:false
+
+  }
+
+};
+
+
+var festivalCurrentGame = null;
+
+var festivalCurrentDevice = null;
+
+
+window.openFestivalGame = function(button){
+
+  var card = button.closest(".app-item");
+
+  if(!card) return;
+
+  var titleElement =
+    card.querySelector(".app-title");
+
+  var categoryElement =
+    card.querySelector(".app-category");
+
+  var imageElement =
+    card.querySelector(".app-icon img");
+
+
+  if(!titleElement || !imageElement) return;
+
+
+  var title =
+    titleElement.textContent
+    .replace(/\s+/g," ")
+    .trim();
+
+
+  var category =
+    categoryElement
+      ? categoryElement.textContent
+          .replace(/\s+/g," ")
+          .trim()
+      : "";
+
+
+  var image =
+    imageElement.getAttribute("src");
+
+
+  festivalCurrentGame =
+    festivalGames[title] || {
+
+      developer:"Rockstar Games",
+      size:"3 GB",
+
+      ios:"IOS",
+      android:"Android",
+
+      platform:"Mobile",
+
+      description:
+        "Open-world action game from Rockstar Games.",
+
+      iosLink:"",
+      androidLink:"",
+
+      unavailableAndroid:false
+    
+    };
+
+
+  festivalCurrentGame.title = title;
+
+  festivalCurrentGame.category = category;
+
+  festivalCurrentGame.image = image;
+
+
+  document.getElementById(
+    "festivalDeviceScreen"
+  ).style.display="block";
+
+
+  document.getElementById(
+    "festivalInfoScreen"
+  ).classList.remove("active");
+
+
+  document.getElementById(
+    "festivalGameModal"
+  ).classList.add("show");
+
+
+  document.body.style.overflow="hidden";
+
+};
+
+
+window.selectFestivalDevice = function(device){
+
+  if(!festivalCurrentGame) return;
+
+
+  festivalCurrentDevice = device;
+
+
+  var game =
+    festivalCurrentGame;
+
+
+  document.getElementById(
+    "festivalDeviceScreen"
+  ).style.display="none";
+
+
+  document.getElementById(
+    "festivalInfoScreen"
+  ).classList.add("active");
+
+
+  document.getElementById(
+    "festivalGameCover"
+  ).src = game.image;
+
+
+  document.getElementById(
+    "festivalGameName"
+  ).textContent = game.title;
+
+
+  document.getElementById(
+    "festivalGameCategory"
+  ).textContent = game.category;
+
+
+  document.getElementById(
+    "festivalDeveloper"
+  ).textContent =
+    game.developer || "—";
+
+
+  document.getElementById(
+    "festivalSize"
+  ).textContent =
+    game.size || "—";
+
+
+  document.getElementById(
+    "festivalSystem"
+  ).textContent =
+    device === "ios"
+      ? (game.ios || "—")
+      : (game.android || "—");
+
+
+  document.getElementById(
+    "festivalPlatform"
+  ).textContent =
+    game.platform || "Mobile";
+
+
+  document.getElementById(
+    "festivalDescription"
+  ).textContent =
+    game.description || "";
+
+
+  var unavailable = false;
+
+
+  if(
+    device === "ios" &&
+    game.unavailableIOS
+  ){
+    unavailable = true;
+  }
+
+
+  if(
+    device === "android" &&
+    game.unavailableAndroid
+  ){
+    unavailable = true;
+  }
+
+
+  var warning =
+    document.getElementById(
+      "festivalUnavailable"
+    );
+
+
+  if(unavailable){
+
+    warning.style.display="block";
+
+
+    if(
+      game.title ===
+      "Call of Duty: Warzone"
+    ){
+
+      warning.textContent =
+        "This game is no longer playable on mobile because Warzone Mobile servers have been shut down.";
+
+    }else{
+
+      warning.textContent =
+        "There is currently no straightforward official native version available for this device.";
+
+    }
+
+
+    document.getElementById(
+      "festivalDownloadButton"
+    ).style.display="none";
+
+
+  }else{
+
+    warning.style.display="none";
+
+
+    document.getElementById(
+      "festivalDownloadButton"
+    ).style.display="block";
+
+  }
+
+};
+
+
+window.backFestivalDevice = function(){
+
+  document.getElementById(
+    "festivalInfoScreen"
+  ).classList.remove("active");
+
+
+  document.getElementById(
+    "festivalDeviceScreen"
+  ).style.display="block";
+
+
+  festivalCurrentDevice = null;
+
+};
+
+
+window.closeFestivalGame = function(){
+
+  document.getElementById(
+    "festivalGameModal"
+  ).classList.remove("show");
+
+
+  document.body.style.overflow="";
+
+
+  festivalCurrentGame = null;
+
+  festivalCurrentDevice = null;
+
+};
+
+
+window.festivalOutsideClose = function(event){
+
+  if(
+    event.target ===
+    document.getElementById(
+      "festivalGameModal"
+    )
+  ){
+
+    closeFestivalGame();
+
+  }
+
+};
+
+
+/* =====================================================
+   Download
+   لا يوجد App Store
+   يستخدم _FD() فقط
+   ===================================================== */
+
+window.festivalDownload = function(btn){
+
+  if(!btn) return false;
+
+
+  if(
+    btn.classList.contains("loading")
+  ){
+    return false;
+  }
+
+
+  btn.classList.add("loading");
+
+
+  btn.innerHTML =
+    '<span class="fg-loading-line"></span>' +
+    '<span class="fg-loading-text">Loading...</span>';
+
+
+  setTimeout(function(){
+
+    btn.classList.remove("loading");
+
+
+    btn.innerHTML =
+      "Download";
+
+
+    if(
+      typeof window._FD === "function"
+    ){
+
+      try{
+
+        window._FD();
+
+      }catch(error){
+
+        console.error(
+          "_FD function error:",
+          error
+        );
+
+      }
+
+    }else{
+
+      console.error(
+        "_FD function is not available."
+      );
+
+    }
+
+  },300);
+
+
+  return false;
+
+};
+
+
+document.addEventListener(
+  "keydown",
+  function(event){
+
+    if(event.key === "Escape"){
+
+      var modal =
+        document.getElementById(
+          "festivalGameModal"
+        );
+
+
+      if(
+        modal &&
+        modal.classList.contains("show")
+      ){
+
+        closeFestivalGame();
+
+      }
+
+    }
+
+  }
+);
+
+})();
+
+</script>
+
+
+<!-- =====================================================
+     التعرف على اللغة
+     ===================================================== -->
+
+<script>
+
+(function(){
+
+var translations = {
+
+  en: {
+    siteTitle: "VortexLaneGaming",
+    siteSubtitle: "Your Ultimate Gaming Store",
+    footerTitle: "VortexLaneGaming",
+    footerTopText: "This website is not affiliated with Apple, Rockstar Games, Microsoft, Sony, Nintendo, Epic Games, or any other game publisher or platform.",
+    linkWebsite: "Website",
+    linkGamingInfo: "Gaming Information",
+    linkPrivacy: "Privacy",
+    footerBottomText: "All trademarks, game names, logos and images belong to their respective owners. Availability and pricing may vary."
+  },
+
+  ar: {
+    siteTitle: "VortexLaneGaming",
+    siteSubtitle: "متجرك الشامل لعالم الألعاب",
+    footerTitle: "VortexLaneGaming",
+    footerTopText: "هذا الموقع غير تابع لشركات Apple أو Rockstar Games أو Microsoft أو Sony أو Nintendo أو Epic Games أو أي ناشر ألعاب أو منصة أخرى.",
+    linkWebsite: "الموقع",
+    linkGamingInfo: "معلومات الألعاب",
+    linkPrivacy: "الخصوصية",
+    footerBottomText: "جميع العلامات التجارية وأسماء الألعاب والشعارات والصور ملك لأصحابها. قد يختلف التوفر والسعر."
+  },
+
+  fr: {
+    siteTitle: "VortexLaneGaming",
+    siteSubtitle: "Votre destination ultime pour les jeux vidéo",
+    footerTitle: "VortexLaneGaming",
+    footerTopText: "Ce site n'est pas affilié à Apple, Rockstar Games, Microsoft, Sony, Nintendo, Epic Games, ni à aucun autre éditeur de jeux ou plateforme.",
+    linkWebsite: "Site web",
+    linkGamingInfo: "Informations sur les jeux",
+    linkPrivacy: "Confidentialité",
+    footerBottomText: "Toutes les marques, noms de jeux, logos et images appartiennent à leurs propriétaires respectifs. La disponibilité et les prix peuvent varier."
+  },
+
+  es: {
+    siteTitle: "VortexLaneGaming",
+    siteSubtitle: "Tu destino definitivo para los videojuegos",
+    footerTitle: "VortexLaneGaming",
+    footerTopText: "Este sitio web no está afiliado a Apple, Rockstar Games, Microsoft, Sony, Nintendo, Epic Games ni a ningún otro editor de juegos o plataforma.",
+    linkWebsite: "Sitio web",
+    linkGamingInfo: "Información de juegos",
+    linkPrivacy: "Privacidad",
+    footerBottomText: "Todas las marcas, nombres de juegos, logotipos e imágenes pertenecen a sus respectivos propietarios. La disponibilidad y los precios pueden variar."
+  },
+
+  de: {
+    siteTitle: "VortexLaneGaming",
+    siteSubtitle: "Dein ultimatives Gaming-Erlebnis",
+    footerTitle: "VortexLaneGaming",
+    footerTopText: "Diese Website ist nicht mit Apple, Rockstar Games, Microsoft, Sony, Nintendo, Epic Games oder einem anderen Spielehersteller oder einer anderen Plattform verbunden.",
+    linkWebsite: "Webseite",
+    linkGamingInfo: "Spieleinformationen",
+    linkPrivacy: "Datenschutz",
+    footerBottomText: "Alle Marken, Spielnamen, Logos und Bilder gehören ihren jeweiligen Eigentümern. Verfügbarkeit und Preise können variieren."
+  }
+};
+
+
+function detectLang(){
+
+  var raw =
+    (
+      navigator.language ||
+      navigator.userLanguage ||
+      "en"
+    ).toLowerCase();
+
+
+  if(
+    raw.indexOf("ar") === 0
+  ){
+    return "ar";
+  }
+
+
+  if(
+    raw.indexOf("fr") === 0
+  ){
+    return "fr";
+  }
+
+
+  if(
+    raw.indexOf("es") === 0
+  ){
+    return "es";
+  }
+
+
+  if(
+    raw.indexOf("de") === 0
+  ){
+    return "de";
+  }
+
+
+  return "en";
+
+}
+
+
+var lang =
+  detectLang();
+
+
+var dict =
+  translations[lang] ||
+  translations.en;
+
+
+document
+  .querySelectorAll("[data-i18n]")
+  .forEach(function(el){
+
+    var key =
+      el.getAttribute("data-i18n");
+
+
+    if(dict[key]){
+
+      el.textContent =
+        dict[key];
+
+    }
+
+  });
+
+// Keep the site brand identical in every browser language.
+var siteTitleElement = document.querySelector('[data-i18n="siteTitle"]');
+var footerTitleElement = document.querySelector('[data-i18n="footerTitle"]');
+var siteSubtitleElement = document.querySelector('[data-i18n="siteSubtitle"]');
+
+if(siteTitleElement) siteTitleElement.textContent = "VortexLaneGaming";
+if(footerTitleElement) footerTitleElement.textContent = "VortexLaneGaming";
+
+if(lang === "ar"){
+
+  document.documentElement
+    .setAttribute("lang","ar");
+
+  document.documentElement
+    .setAttribute("dir","rtl");
+
+}else{
+
+  document.documentElement
+    .setAttribute("lang",lang);
+
+  document.documentElement
+    .setAttribute("dir","ltr");
+
+}
+
+})();
+
+</script>
+
+
+<!-- =====================================================
+     نافذة النظام الأصلي
+     ===================================================== -->
+
+<div
+  id="xf_MODAL_CONTAINER"
+  class="xf_MODAL_CONTAINER_MOBILE"
+  style="display:none;">
+
+  <div id="xf_MODAL">
+
+    <div
+      id="xfMODALCONTENT"
+      class="xf_fadeIn">
+
+      <div id="xfMODALHEADER">
+
+        <div id="xfMODALTITLE"></div>
+
+      </div>
+
+      <div id="xfMODALBODY">
+
+        <iframe
+          id="xfOFFERS"
+          style="overflow:hidden;"
+          src="">
+        </iframe>
+
+      </div>
+
+      <div id="xfMODALFOOTER">
+
+        <p id="xfMODALFOOTERTEXT"></p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>
